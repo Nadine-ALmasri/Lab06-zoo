@@ -9,9 +9,9 @@ namespace Lab06_zoo
     public abstract class Birds : Animals
     {
       
-        public virtual void Fly()
+        public virtual string Fly()
         {
-
+            return "";
         }
     }
 }

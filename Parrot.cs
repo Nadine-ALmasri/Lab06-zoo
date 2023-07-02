@@ -11,17 +11,20 @@ namespace Lab06_zoo
         public override string Name => "Parrot";
         public override string Type => "Birds";
         public override string Food => "crumbles";
-        public override void Eat()
+        public override string Eat()
         {
             Console.WriteLine("The Parrot is eating.");
+            return "The Parrot is eating.";
         }
-        public override void Move()
+        public override string Move()
         {
             Console.WriteLine("The Parrot is flying.");
+            return "The Parrot is flying.";
         }
-        public override void Fly()
+        public override string Fly()
         {
             Console.WriteLine("The Parrot is flying.");
+            return "The Parrot is flying.";
         }
         public override void Display()
         {

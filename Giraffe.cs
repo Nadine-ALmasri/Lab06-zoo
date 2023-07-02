@@ -14,13 +14,15 @@ namespace Lab06_zoo
         public override string Name => "Giraffe";
     public override string Type => "herbivorous mammal";
     public override string Food => "herbivore";
-    public override void Eat()
+    public override string Eat()
     {
         Console.WriteLine("The Giraffe is eating.");
+            return "The Giraffe is eating.";
     }
-    public override void Move()
+    public override string Move()
     {
         Console.WriteLine("The Giraffe is walking.");
+            return "The Giraffe is walking.";
     }
     public override void Display()
     {
