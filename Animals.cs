@@ -18,10 +18,12 @@ namespace Lab06_zoo
             Console.WriteLine ($"Food is {Food}");
           
         }
-        public virtual void Move() { 
+        public virtual string Move() {
+            return " ";
         }
-        public virtual void Eat()
+        public virtual string Eat()
         {
+            return "";
         }
     }
 }
