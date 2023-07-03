@@ -46,6 +46,7 @@ Example:
     string bodyCover();
     bool LivesInGroups();
      }
+
 ### Living interface:
 
 This interface defines methods related to the place and activity of animals.
