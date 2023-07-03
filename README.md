@@ -59,3 +59,8 @@ Example:
     string Place();
      string Activity();
     }
+
+
+## UML Updated  Diagram
+
+   ![](./lab-7.jpg)
