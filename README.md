@@ -22,6 +22,40 @@ Inheritance: The dog class inherits from the Mammles class, which in turn inheri
 
 Polymorphism: The code demonstrates polymorphism through method overriding and virtual
 
+# Interface ( lab07 )
+## Introduction :
+
+ an interface is a contract or a blueprint that defines a set of methods or
+ properties that a class must implement. Interfaces provide a way to achieve 
+ abstraction, allowing multiple classes to implement the same interface 
+ while providing their own unique implementation.
+ ## Examples From My Project 
+ In my project there are two interfaces:
+
+### Families interface:
+
+This interface defines methods related to the family and body cover of animals.
+It is being implemented by the Shark class, which provides its own implementation of the methods defined in the interface.
+The purpose of this interface is to ensure that classes implementing it have the necessary behavior related to family and body cover.
+Example:
 
 
+     public interface Families
+    {
+    string family();
+    string bodyCover();
+    bool LivesInGroups();
+     }
+### Living interface:
 
+This interface defines methods related to the place and activity of animals.
+It is being implemented by the Elephant class, which provides its own implementation of the methods defined in the interface.
+The purpose of this interface is to ensure that classes implementing it have the necessary behavior related to the place and activity of animals.
+Example:
+
+
+    public interface Living
+    {
+    string Place();
+     string Activity();
+    }
